@@ -12,10 +12,10 @@ export function Header() {
             </span>
             <nav>
                 <NavLink to='/'>
-                    <Scroll />
+                    <Timer size={24}/>
                 </NavLink>
                 <NavLink to='/history'>
-                    <Timer />
+                    <Scroll size={24}/>
                 </NavLink>
             </nav>
         </HeaderContainer>

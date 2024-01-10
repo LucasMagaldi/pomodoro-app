@@ -1,5 +1,12 @@
+import { NewCicleForm } from "./NewCicleForm";
+import { HomeContainer } from "./style";
+
 export function Home() {
     return (
-        <h1>Home</h1>
+        <HomeContainer>
+            <form>
+                <NewCicleForm />
+            </form>
+        </HomeContainer>
     )
 }
